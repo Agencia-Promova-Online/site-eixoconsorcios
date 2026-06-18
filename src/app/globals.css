@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    /* Eixo Brand Palette */
+    --eixo-bg: #FAF9F6;
+    --eixo-bg-warm: #F5F2EC;
+    --eixo-text: #1C1C2E;
+    --eixo-primary: #1B3A6B;
+    --eixo-tertiary: #D6C9A8;
+    --eixo-gold: #C9A05A;
+    --eixo-gold-light: #E8C97A;
+    --eixo-muted: #6B6B80;
+    --eixo-dark: #0F1119;
+    --eixo-navy: #0D2545;
+
+    /* ShadCN variables */
+    --background: 42 20% 97%;
+    --foreground: 240 25% 13%;
+    --card: 42 20% 97%;
+    --card-foreground: 240 25% 13%;
+    --popover: 42 20% 97%;
+    --popover-foreground: 240 25% 13%;
+    --primary: 220 57% 25%;
+    --primary-foreground: 42 20% 97%;
+    --secondary: 38 30% 88%;
+    --secondary-foreground: 240 25% 13%;
+    --muted: 38 30% 88%;
+    --muted-foreground: 240 10% 45%;
+    --accent: 38 45% 68%;
+    --accent-foreground: 240 25% 13%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 38 20% 88%;
+    --input: 38 20% 88%;
+    --ring: 220 57% 25%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 36 74% 58%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  body {
+    @apply font-sans font-light;
+    background-color: var(--eixo-bg);
+    color: var(--eixo-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-light;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 160, 90, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 160, 90, 0.5);
+}
+
+/* Glass Effect Utilities */
+@layer utilities {
+  .glass {
+    @apply bg-white/10 backdrop-blur-xl border border-white/10;
+  }
+
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-xl border border-white/10;
+  }
+
+  .glass-light {
+    @apply bg-white/60 backdrop-blur-xl border border-black/5;
+  }
+
+  .text-gold {
+    color: var(--eixo-gold);
+  }
+
+  .bg-gold {
+    background-color: var(--eixo-gold);
+  }
+
+  .border-gold {
+    border-color: var(--eixo-gold);
+  }
+
+  .bg-tertiary {
+    background-color: var(--eixo-tertiary);
+  }
+
+  .text-tertiary {
+    color: var(--eixo-tertiary);
+  }
+}
+
+/* Selection */
+::selection {
+  background: rgba(201, 160, 90, 0.2);
+  color: var(--eixo-text);
+}
+
+/* Input autofill styling */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #1C1C2E;
+  -webkit-box-shadow: 0 0 0px 1000px #FAF9F6 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Input autofill for dark backgrounds */
+.dark-section input:-webkit-autofill,
+.dark-section input:-webkit-autofill:hover,
+.dark-section input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.03) inset;
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

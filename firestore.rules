@@ -1,0 +1,57 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn() &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.admin == true;
+    }
+
+    match /users/{userId} {
+      allow read: if isSignedIn() && request.auth.uid == userId;
+      allow create: if isSignedIn()
+        && request.auth.uid == userId
+        && (
+          !('admin' in request.resource.data)
+          || request.resource.data.admin == false
+        );
+      allow update: if isSignedIn()
+        && request.auth.uid == userId
+        && (
+          !('admin' in request.resource.data)
+          || request.resource.data.admin == resource.data.admin
+        );
+      allow delete: if false;
+    }
+
+    match /credenciamento_representantes/{docId} {
+      // Público: qualquer visitante pode enviar o formulário de credenciamento.
+      allow create: if true;
+      allow read: if isAdmin();
+      allow update: if isAdmin();
+      allow delete: if false;
+    }
+
+    match /contatos_site/{docId} {
+      // Público: qualquer visitante pode enviar o formulário de contato.
+      allow create: if true;
+      allow read: if isAdmin();
+      allow update: if isAdmin();
+      allow delete: if false;
+    }
+
+    match /blogs/{blogId} {
+      // Leitura pública dos posts.
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+
+      match /comments/{commentId} {
+        allow read, create: if true;
+        allow delete: if isAdmin();
+      }
+    }
+  }
+}

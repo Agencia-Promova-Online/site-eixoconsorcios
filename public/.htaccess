@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirect /item.html to /item/
+  RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)\.html\ HTTP/ [NC]
+  RewriteRule ^(.+)\.html$ /$1/ [R=301,L]
+
+  # Handle /item to /item/ (Next.js trailingSlash: true generates folder/index.html)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+  RewriteRule ^(.*)$ /$1/ [L,R=301]
+
+  # Serve index.html for directory requests
+  DirectoryIndex index.html
+</IfModule>

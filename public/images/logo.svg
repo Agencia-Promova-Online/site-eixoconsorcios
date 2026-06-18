@@ -1,0 +1,13 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M40 5C40 5 15 15 15 35C15 55 40 75 40 75C40 75 65 55 65 35C65 15 40 5 40 5Z" fill="black" stroke="white" stroke-width="2"/>
+
+  <!-- Inner Shield -->
+  <path d="M40 12C40 12 22 20 22 36C22 52 40 68 40 68C40 68 58 52 58 36C58 20 40 12 40 12Z" fill="black"/>
+
+  <!-- Stylized E Lines -->
+  <path d="M30 28H50M30 40H45M30 52H50" stroke="white" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Vertical Line for E -->
+  <path d="M30 28V52" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>
