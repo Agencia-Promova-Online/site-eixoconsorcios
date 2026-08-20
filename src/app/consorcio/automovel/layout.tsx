@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Consórcio de Automóveis | Eixo Consórcios — Sem Juros, Adesão Flexível',
+    title: 'Consórcio de Automóveis | Eixo — Sem Juros, Adesão Flexível',
     description:
         'Adquira seu carro novo ou seminovo sem pagar juros. Planos de 24 a 80 meses, cartas de crédito flexíveis e contemplação por sorteio ou lance. Brasília-DF.',
     keywords: [
@@ -11,15 +11,15 @@ export const metadata: Metadata = {
         'consórcio carro DF',
         'consórcio seminovo',
         'consórcio carro zero',
-        'Eixo Consórcios automóveis',
+        'Eixo automóveis',
         'comprar carro sem financiamento',
     ],
     openGraph: {
-        title: 'Consórcio de Automóveis | Eixo Consórcios',
+        title: 'Consórcio de Automóveis | Eixo',
         description:
             'Seu carro novo ou seminovo com parcelas que cabem no bolso. Sem juros, adesão flexível e com total liberdade para escolher o modelo que você quiser.',
         url: 'https://eixoconsorcios.com.br/consorcio/automovel',
-        siteName: 'Eixo Consórcios',
+        siteName: 'Eixo',
         locale: 'pt_BR',
         type: 'website',
         images: [
@@ -27,13 +27,13 @@ export const metadata: Metadata = {
                 url: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1200&auto=format&fit=crop&q=80',
                 width: 1200,
                 height: 630,
-                alt: 'Consórcio de Automóveis — Eixo Consórcios',
+                alt: 'Consórcio de Automóveis — Eixo',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Consórcio de Automóveis | Eixo Consórcios',
+        title: 'Consórcio de Automóveis | Eixo',
         description:
             'Adquira seu carro sem juros. Planos flexíveis de 24 a 80 meses. Brasília-DF.',
         images: [

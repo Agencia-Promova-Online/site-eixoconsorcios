@@ -316,7 +316,7 @@ export default function ContactForm() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Eixo Consórcios — Brasília, DF"
+              title="Localização Eixo — Brasília, DF"
             />
           </div>
         </motion.div>

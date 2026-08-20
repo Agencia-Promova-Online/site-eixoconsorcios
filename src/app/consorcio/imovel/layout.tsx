@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Consórcio de Imóveis | Eixo Consórcios — Casa Própria Sem Juros',
+    title: 'Consórcio de Imóveis | Eixo — Casa Própria Sem Juros',
     description:
         'Realize o sonho da casa própria sem pagar juros. Cartas de crédito de R$ 100 mil a R$ 5 milhões, prazo de até 200 meses. Autorizado pelo Banco Central. Brasília-DF.',
     keywords: [
@@ -12,14 +12,14 @@ export const metadata: Metadata = {
         'consórcio terreno Brasília',
         'comprar imóvel sem financiamento',
         'consórcio imobiliário Banco Central',
-        'Eixo Consórcios imóveis',
+        'Eixo imóveis',
     ],
     openGraph: {
-        title: 'Consórcio de Imóveis | Eixo Consórcios',
+        title: 'Consórcio de Imóveis | Eixo',
         description:
             'Realize o sonho da casa própria sem pagar juros. Planejamento inteligente para conquistar o imóvel que você merece.',
         url: 'https://eixoconsorcios.com.br/consorcio/imovel',
-        siteName: 'Eixo Consórcios',
+        siteName: 'Eixo',
         locale: 'pt_BR',
         type: 'website',
         images: [
@@ -27,13 +27,13 @@ export const metadata: Metadata = {
                 url: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&auto=format&fit=crop&q=80',
                 width: 1200,
                 height: 630,
-                alt: 'Consórcio de Imóveis — Eixo Consórcios',
+                alt: 'Consórcio de Imóveis — Eixo',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Consórcio de Imóveis | Eixo Consórcios',
+        title: 'Consórcio de Imóveis | Eixo',
         description:
             'Casa própria sem juros. Até 200 meses, carta de crédito de até R$ 5 milhões. Brasília-DF.',
         images: [

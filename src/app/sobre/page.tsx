@@ -83,7 +83,7 @@ export default function SobrePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1600&auto=format&fit=crop&q=80"
-          alt="Equipe Eixo Consórcios"
+          alt="Equipe Eixo"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-[#0F1119]/65" />
@@ -101,7 +101,7 @@ export default function SobrePage() {
             className="text-4xl sm:text-5xl md:text-6xl font-extralight text-white leading-tight mb-6"
           >
             Sobre a{' '}
-            <span className="text-[#C9A05A]">Eixo Consórcios</span>
+            <span className="text-[#C9A05A]">Eixo</span>
           </h1>
           <p
             data-aos="fade-up"
@@ -126,7 +126,7 @@ export default function SobrePage() {
               realidade
             </h2>
             <p className="text-[#6B6B80] font-light leading-relaxed mb-6 text-lg">
-              A Eixo Consórcios nasceu em Brasília-DF com uma missão clara: democratizar
+              A Eixo nasceu em Brasília-DF com uma missão clara: democratizar
               o acesso ao planejamento financeiro por consórcio. Em um mercado repleto de promessas vazias,
               escolhemos construir nossa reputação sobre um único alicerce — a confiança.
             </p>
@@ -165,7 +165,7 @@ export default function SobrePage() {
               />
               <img
                 src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&auto=format&fit=crop"
-                alt="Equipe Eixo Consórcios"
+                alt="Equipe Eixo"
                 className="w-full h-[420px] object-cover object-center relative z-10"
               />
             </div>
@@ -266,13 +266,13 @@ export default function SobrePage() {
             </h2>
           </div>
           <p className="text-[#6B6B80] font-light leading-relaxed text-xl max-w-5xl mx-auto text-justify">
-            A Eixo Consórcios atua na comercialização de cotas de consórcio, em conformidade com a Lei nº 11.795/2008 e demais normas aplicáveis.
+            A Eixo atua na comercialização de cotas de consórcio, em conformidade com a Lei nº 11.795/2008 e demais normas aplicáveis.
           </p>
           <p className="text-[#6B6B80] font-light leading-relaxed text-xl max-w-5xl mx-auto mt-6 text-justify">
             A administração, gestão dos grupos e fiscalização operacional são realizadas pela Alfa Administradora de Consórcios Ltda., empresa devidamente autorizada e fiscalizada pelo Banco Central do Brasil (BACEN).
           </p>
           <p className="text-[#6B6B80] font-light leading-relaxed text-xl max-w-5xl mx-auto mt-6 text-justify">
-            A Eixo Consórcios exerce a atividade de representação comercial, atuando na intermediação e comercialização das cotas, sempre em conformidade com as diretrizes da administradora responsável.
+            A Eixo exerce a atividade de representação comercial, atuando na intermediação e comercialização das cotas, sempre em conformidade com as diretrizes da administradora responsável.
           </p>
           <p className="text-[#6B6B80] font-light leading-relaxed text-xl max-w-5xl mx-auto mt-6 text-justify">
             A EIXO não comercializa cotas com data certa para contemplação ou cotas contempladas.

@@ -94,7 +94,7 @@ const benefits: Benefit[] = [
     icon: Users,
     title: 'Transparência e Segurança',
     description:
-      'Eixo Consórcios é 100% autorizada e fiscalizada pelo Banco Central. Operamos com total transparência nos valores, prazos e contemplações.',
+      'Eixo é 100% autorizada e fiscalizada pelo Banco Central. Operamos com total transparência nos valores, prazos e contemplações.',
   },
 ]
 
@@ -243,7 +243,7 @@ export default function ConsorcioDeimoveis() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <Image
           src={bannerImg}
-          alt="Consórcio de Imóveis — Eixo Consórcios"
+          alt="Consórcio de Imóveis — Eixo"
           fill
           priority
           className="object-cover object-center"

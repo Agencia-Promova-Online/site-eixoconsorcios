@@ -119,7 +119,7 @@ export default function PrivacidadePage() {
               <time dateTime="2025-01-15">15 de janeiro de 2025</time>
             </p>
             <p className="mt-4 max-w-2xl text-[#1C1C2E]/55 font-light leading-relaxed">
-              A Eixo Consórcios respeita e protege a privacidade dos seus
+              A Eixo respeita e protege a privacidade dos seus
               clientes e visitantes. Este documento explica de forma clara e
               transparente como coletamos, usamos e protegemos seus dados
               pessoais, em conformidade com a{' '}
@@ -198,7 +198,7 @@ export default function PrivacidadePage() {
               <Paragraph>
                 A presente Política de Privacidade é fornecida pela{' '}
                 <strong className="font-medium text-[#1C1C2E]/80">
-                  Eixo Consórcios
+                  Eixo
                 </strong>
                 , empresa devidamente constituída sob as leis da República
                 Federativa do Brasil, inscrita no CNPJ sob o número{' '}
@@ -215,7 +215,7 @@ export default function PrivacidadePage() {
                   eixoconsorcios.com.br
                 </strong>{' '}
                 e da plataforma digital, bem como a clientes ativos e ex-clientes
-                que tenham compartilhado dados com a Eixo Consórcios em qualquer
+                que tenham compartilhado dados com a Eixo em qualquer
                 momento. Ao acessar nossos serviços, você confirma que leu,
                 entendeu e concorda com os termos desta política.
               </Paragraph>
@@ -312,14 +312,14 @@ export default function PrivacidadePage() {
                 4. Compartilhamento de Dados
               </SectionTitle>
               <Paragraph>
-                A Eixo Consórcios não vende, aluga ou cede seus dados pessoais a
+                A Eixo não vende, aluga ou cede seus dados pessoais a
                 terceiros para fins comerciais. O compartilhamento ocorre apenas
                 nas situações abaixo, sempre com adoção de medidas de segurança
                 adequadas:
               </Paragraph>
               <BulletList
                 items={[
-                  'Administradoras de consórcio autorizadas pelo Banco Central do Brasil (BACEN), parceiras da Eixo Consórcios para gestão dos grupos.',
+                  'Administradoras de consórcio autorizadas pelo Banco Central do Brasil (BACEN), parceiras da Eixo para gestão dos grupos.',
                   'Prestadores de serviços contratados para operar em nosso nome (ex.: processamento de pagamentos, hospedagem de dados, envio de comunicações), vinculados por cláusulas contratuais de confidencialidade e proteção de dados.',
                   'Autoridades públicas, judiciais ou regulatórias, quando exigido por lei, ordem judicial ou regulamentação do Banco Central do Brasil.',
                   'Parceiros de análise de crédito (bureaus de crédito), mediante consentimento e nos limites necessários para a análise de capacidade financeira.',
@@ -327,7 +327,7 @@ export default function PrivacidadePage() {
                 ]}
               />
               <Paragraph>
-                Todos os terceiros que recebem dados pessoais da Eixo Consórcios
+                Todos os terceiros que recebem dados pessoais da Eixo
                 são contratualmente obrigados a manter a confidencialidade e a
                 utilizar os dados exclusivamente para as finalidades autorizadas,
                 em conformidade com a LGPD.
@@ -395,7 +395,7 @@ export default function PrivacidadePage() {
               <Paragraph>
                 A Lei Geral de Proteção de Dados (Lei nº 13.709/2018) garante aos
                 titulares de dados pessoais um conjunto de direitos que a Eixo
-                Consórcios se compromete a respeitar integralmente:
+                se compromete a respeitar integralmente:
               </Paragraph>
               <BulletList
                 items={[
@@ -454,7 +454,7 @@ export default function PrivacidadePage() {
                 9. Contato do DPO (Encarregado de Dados)
               </SectionTitle>
               <Paragraph>
-                Em cumprimento ao art. 41 da LGPD, a Eixo Consórcios designou um
+                Em cumprimento ao art. 41 da LGPD, a Eixo designou um
                 Encarregado pelo Tratamento de Dados Pessoais (Data Protection
                 Officer — DPO), responsável por atuar como canal de comunicação
                 entre a empresa, os titulares de dados e a Autoridade Nacional de
@@ -470,7 +470,7 @@ export default function PrivacidadePage() {
                       Empresa:
                     </span>
                     <span className="text-[#1C1C2E]/80 font-light text-sm">
-                      Eixo Consórcios
+                      Eixo
                     </span>
                   </div>
                   <div className="flex gap-3">
@@ -515,7 +515,7 @@ export default function PrivacidadePage() {
                 10. Alterações desta Política
               </SectionTitle>
               <Paragraph>
-                A Eixo Consórcios reserva-se o direito de atualizar esta Política
+                A Eixo reserva-se o direito de atualizar esta Política
                 de Privacidade periodicamente, em virtude de mudanças na
                 legislação, em nossas práticas de tratamento de dados ou em
                 decorrência de novas funcionalidades da plataforma.

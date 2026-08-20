@@ -104,7 +104,7 @@ export default function Agro() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              O agronegócio move o Brasil e a Eixo Consórcios está ao lado de quem faz a terra produzir.
+              O agronegócio move o Brasil e a Eixo está ao lado de quem faz a terra produzir.
               Adquira tratores e máquinas agrícolas com condições exclusivas e sem juros.
             </motion.p>
 

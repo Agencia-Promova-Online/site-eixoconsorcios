@@ -351,7 +351,7 @@ export default function PlataformaPage() {
               <div className="relative w-full max-w-[420px] aspect-[9/18.5]">
                 <Image
                   src={iphoneMockup}
-                  alt="Plataforma Eixo Consórcios no celular"
+                  alt="Plataforma Eixo no celular"
                   className="w-full h-auto object-contain z-10 relative"
                   priority
                 />

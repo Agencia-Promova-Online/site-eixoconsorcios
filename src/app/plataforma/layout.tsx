@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Plataforma Digital | Eixo Consórcios — Controle Total do seu Consórcio',
+    title: 'Plataforma Digital | Eixo — Controle Total do seu Consórcio',
     description:
         'Acesse sua conta, realize simulações, acompanhe assembleias e gerencie seus lances em tempo real. Tecnologia e autonomia para o seu consórcio na palma da sua mão.',
     keywords: [
@@ -10,15 +10,15 @@ export const metadata: Metadata = {
         'simulador de consórcio online',
         'acompanhar assembleia online',
         'lance consórcio digital',
-        'Eixo Consórcios plataforma',
+        'Eixo plataforma',
         'gestão de consórcio online',
     ],
     openGraph: {
-        title: 'Plataforma Digital | Eixo Consórcios',
+        title: 'Plataforma Digital | Eixo',
         description:
             'Controle o seu consórcio com total autonomia. Acompanhe assembleias, dê lances e simule planos em tempo real.',
         url: 'https://eixoconsorcios.com.br/plataforma',
-        siteName: 'Eixo Consórcios',
+        siteName: 'Eixo',
         locale: 'pt_BR',
         type: 'website',
         images: [
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
                 url: 'https://eixoconsorcios.com.br/og-plataforma.png',
                 width: 1200,
                 height: 630,
-                alt: 'Plataforma Digital Eixo Consórcios',
+                alt: 'Plataforma Digital Eixo',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Plataforma Digital | Eixo Consórcios',
+        title: 'Plataforma Digital | Eixo',
         description:
             'Controle o seu consórcio com total autonomia. Acompanhe tudo em tempo real.',
         images: ['https://eixoconsorcios.com.br/og-plataforma.png'],

@@ -79,8 +79,8 @@ export default function Navbar() {
               >
                 <Image
                   src={logo}
-                  alt="Eixo Consórcios"
-                  title="Eixo Consórcios"
+                  alt="Eixo"
+                  title="Eixo"
                   width={192}
                   height={192}
                   className="h-16 w-auto"
@@ -188,7 +188,7 @@ export default function Navbar() {
             <div className="flex items-center cursor-pointer">
               <Image
                 src={logo}
-                alt="Eixo Consórcios"
+                alt="Eixo"
                 width={96}
                 height={96}
                 className="h-8 w-auto"

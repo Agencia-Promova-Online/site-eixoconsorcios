@@ -61,7 +61,7 @@ export default function Footer() {
             >
               <Image
                 src={logo}
-                alt="Eixo Consórcios"
+                alt="Eixo"
                 width={320}
                 height={320}
                 className="h-24 w-auto"
@@ -75,7 +75,7 @@ export default function Footer() {
               {[
                 { href: 'https://www.instagram.com/eixoconsorcios/', label: 'Instagram', Icon: () => <Instagram className="w-4 h-4" strokeWidth={1.5} /> },
                 { href: 'https://www.facebook.com/profile.php?id=61588148514303', label: 'Facebook', Icon: () => <FacebookIcon className="w-4 h-4" /> },
-                { href: 'https://wa.me/556131421052?text=' + encodeURIComponent('Olá! Estou no site da Eixo Consórcios e gostaria de saber mais sobre os planos disponíveis. Podem me ajudar?'), label: 'WhatsApp', Icon: () => <WhatsAppIcon className="w-4 h-4" /> },
+                { href: 'https://wa.me/556131421052?text=' + encodeURIComponent('Olá! Estou no site da Eixo e gostaria de saber mais sobre os planos disponíveis. Podem me ajudar?'), label: 'WhatsApp', Icon: () => <WhatsAppIcon className="w-4 h-4" /> },
                 { href: 'https://www.youtube.com/@eixoconsorcios', label: 'YouTube', Icon: () => <YouTubeIcon className="w-4 h-4" /> },
               ].map(({ href, label, Icon }) => (
                 <motion.a
@@ -159,7 +159,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
               <p className="text-[#FAF9F6]/50 text-sm font-light">
-                © {currentYear} Eixo Consórcios. Todos os direitos reservados.
+                © {currentYear} Eixo. Todos os direitos reservados.
               </p>
               <p className="text-[#FAF9F6]/55 text-sm font-light mt-1">
                 CNPJ: 41.704.227/0001-03

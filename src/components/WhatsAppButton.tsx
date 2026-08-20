@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
 const WHATSAPP_NUMBER = '556131421052'
-const DEFAULT_MESSAGE = 'Olá! Estou no site da Eixo Consórcios e gostaria de saber mais sobre os planos disponíveis. Podem me ajudar?'
+const DEFAULT_MESSAGE = 'Olá! Estou no site da Eixo e gostaria de saber mais sobre os planos disponíveis. Podem me ajudar?'
 
 const WhatsAppIcon = () => (
   <svg className="w-8 h-8 fill-current text-white" viewBox="0 0 24 24">

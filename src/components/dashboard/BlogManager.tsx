@@ -23,7 +23,7 @@ const initialForm: FormState = {
   content: '',
   coverImage: '',
   category: BLOG_CATEGORIES[0],
-  author: 'Equipe Eixo Consórcios',
+  author: 'Equipe Eixo',
   published: false,
   seoTitle: '',
   seoDescription: '',

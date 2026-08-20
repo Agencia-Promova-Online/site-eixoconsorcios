@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Consórcio de Veículos Pesados e Agronegócio | Eixo Consórcios',
+    title: 'Consórcio de Veículos Pesados e Agronegócio | Eixo',
     description:
         'Renove sua frota ou expanda o agronegócio sem pagar juros. Consórcio de caminhões, tratores, ônibus e máquinas agrícolas com prazos de até 180 meses. Brasília-DF.',
     keywords: [
@@ -13,15 +13,15 @@ export const metadata: Metadata = {
         'consórcio agronegócio',
         'consórcio frota empresarial',
         'consórcio produtor rural',
-        'Eixo Consórcios pesados',
+        'Eixo pesados',
         'renovar frota sem juros',
     ],
     openGraph: {
-        title: 'Consórcio de Veículos Pesados e Agronegócio | Eixo Consórcios',
+        title: 'Consórcio de Veículos Pesados e Agronegócio | Eixo',
         description:
             'Renove sua frota ou expanda o agronegócio sem pagar juros. Caminhões, tratores, ônibus e máquinas agrícolas com prazos de até 180 meses.',
         url: 'https://eixoconsorcios.com.br/consorcio/pesados',
-        siteName: 'Eixo Consórcios',
+        siteName: 'Eixo',
         locale: 'pt_BR',
         type: 'website',
         images: [
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
                 url: 'https://eixoconsorcios.com.br/og-pesados.jpg',
                 width: 1200,
                 height: 630,
-                alt: 'Consórcio de Veículos Pesados — Eixo Consórcios',
+                alt: 'Consórcio de Veículos Pesados — Eixo',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Consórcio de Veículos Pesados e Agronegócio | Eixo Consórcios',
+        title: 'Consórcio de Veículos Pesados e Agronegócio | Eixo',
         description:
             'Caminhões, tratores, ônibus e máquinas agrícolas sem juros. Até 180 meses. Brasília-DF.',
     },

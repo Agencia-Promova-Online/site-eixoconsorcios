@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Consórcio de Serviços | Eixo Consórcios — Viagens, Educação, Saúde e Mais',
+    title: 'Consórcio de Serviços | Eixo — Viagens, Educação, Saúde e Mais',
     description:
         'Realize experiências além de bens materiais. Consórcio de serviços com mais de 40 categorias: viagens, educação, saúde, eventos, energia solar e muito mais. Sem juros, até 60 meses. Brasília-DF.',
     keywords: [
@@ -13,15 +13,15 @@ export const metadata: Metadata = {
         'consórcio casamento',
         'consórcio MBA',
         'consórcio serviços sem juros',
-        'Eixo Consórcios serviços',
+        'Eixo serviços',
         'carta de crédito para serviços',
     ],
     openGraph: {
-        title: 'Consórcio de Serviços | Eixo Consórcios',
+        title: 'Consórcio de Serviços | Eixo',
         description:
             'Realize experiências além de bens materiais. Mais de 40 categorias de serviços: viagens, educação, saúde, eventos e energia solar — sem juros e com total flexibilidade.',
         url: 'https://eixoconsorcios.com.br/consorcio/servicos',
-        siteName: 'Eixo Consórcios',
+        siteName: 'Eixo',
         locale: 'pt_BR',
         type: 'website',
         images: [
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
                 url: 'https://images.unsplash.com/photo-1488085061851-e7bf9cc76949?w=1200&auto=format&fit=crop&q=80',
                 width: 1200,
                 height: 630,
-                alt: 'Consórcio de Serviços — Eixo Consórcios',
+                alt: 'Consórcio de Serviços — Eixo',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Consórcio de Serviços | Eixo Consórcios',
+        title: 'Consórcio de Serviços | Eixo',
         description:
             'Viagens, educação, saúde, casamento e muito mais — sem juros, em até 60 meses. Brasília-DF.',
         images: [

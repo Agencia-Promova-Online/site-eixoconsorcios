@@ -18,10 +18,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Eixo Consórcios | Realize seus Sonhos",
-    template: "%s | Eixo Consórcios",
+    default: "Eixo | Realize seus Sonhos",
+    template: "%s | Eixo",
   },
-  description: "Com a Eixo Consórcios, você conquista o que deseja de forma planejada, segura e sem juros. Consórcios de imóveis, automóveis e muito mais em Brasília - DF.",
+  description: "Com a Eixo, você conquista o que deseja de forma planejada, segura e sem juros. Consórcios de imóveis, automóveis e muito mais em Brasília - DF.",
   keywords: [
     "consórcio",
     "consórcio de imóveis",
@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     "planejamento financeiro",
     "carta de crédito",
     "contemplação",
-    "Eixo Consórcios",
+    "Eixo",
   ],
-  authors: [{ name: "Eixo Consórcios", url: "https://eixoconsorcios.com.br" }],
-  creator: "Eixo Consórcios",
-  publisher: "Eixo Consórcios",
+  authors: [{ name: "Eixo", url: "https://eixoconsorcios.com.br" }],
+  creator: "Eixo",
+  publisher: "Eixo",
   metadataBase: new URL("https://eixoconsorcios.com.br"),
   alternates: {
     canonical: "/",
@@ -48,10 +48,10 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "Eixo Consórcios | Realize seus Sonhos",
-    description: "Com a Eixo Consórcios, você conquista o que deseja de forma planejada, segura e sem juros. Imóveis, automóveis e muito mais.",
+    title: "Eixo | Realize seus Sonhos",
+    description: "Com a Eixo, você conquista o que deseja de forma planejada, segura e sem juros. Imóveis, automóveis e muito mais.",
     url: "https://eixoconsorcios.com.br",
-    siteName: "Eixo Consórcios",
+    siteName: "Eixo",
     locale: "pt_BR",
     type: "website",
     images: [
@@ -59,14 +59,14 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Eixo Consórcios - Realize seus Sonhos",
+        alt: "Eixo - Realize seus Sonhos",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eixo Consórcios | Realize seus Sonhos",
-    description: "Com a Eixo Consórcios, você conquista o que deseja de forma planejada, segura e sem juros.",
+    title: "Eixo | Realize seus Sonhos",
+    description: "Com a Eixo, você conquista o que deseja de forma planejada, segura e sem juros.",
     images: ["/og-image.jpg"],
   },
   robots: {

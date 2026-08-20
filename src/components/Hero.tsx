@@ -27,13 +27,13 @@ const flipWords = [
 ]
 
 const bannerDescriptions = [
-  'Com a Eixo Consórcios, você planeja seu futuro com segurança e sem juros.',
-  'Com a Eixo Consórcios, sua família conquista a casa ideal de forma planejada e sem juros.',
-  'Com a Eixo Consórcios, a chave do seu carro chega com planejamento, segurança e sem juros.',
-  'Com a Eixo Consórcios, você investe no campo com planejamento e sem pagar juros.',
-  'Com a Eixo Consórcios, seu projeto imobiliário sai do papel com segurança e planejamento.',
-  'Com a Eixo Consórcios, sua viagem dos sonhos acontece com organização e sem juros.',
-  'Com a Eixo Consórcios, sua família conquista móveis novos com planejamento e tranquilidade.',
+  'Com a Eixo, você planeja seu futuro com segurança e sem juros.',
+  'Com a Eixo, sua família conquista a casa ideal de forma planejada e sem juros.',
+  'Com a Eixo, a chave do seu carro chega com planejamento, segurança e sem juros.',
+  'Com a Eixo, você investe no campo com planejamento e sem pagar juros.',
+  'Com a Eixo, seu projeto imobiliário sai do papel com segurança e planejamento.',
+  'Com a Eixo, sua viagem dos sonhos acontece com organização e sem juros.',
+  'Com a Eixo, sua família conquista móveis novos com planejamento e tranquilidade.',
 ]
 
 export default function Hero() {
@@ -70,7 +70,7 @@ export default function Hero() {
           >
             <Image
               src={img}
-              alt={`Eixo Consórcios — ${flipWords[index]}`}
+              alt={`Eixo — ${flipWords[index]}`}
               fill
               className="object-cover object-center"
               priority={index === 0}

@@ -1,23 +1,23 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Fale Conosco | Eixo Consórcios — Atendimento e Consultoria',
+    title: 'Fale Conosco | Eixo — Atendimento e Consultoria',
     description:
-        'Entre em contato com a Eixo Consórcios. Tire suas dúvidas sobre consórcio de imóveis, veículos e serviços. Atendimento especializado em Brasília-DF.',
+        'Entre em contato com a Eixo. Tire suas dúvidas sobre consórcio de imóveis, veículos e serviços. Atendimento especializado em Brasília-DF.',
     keywords: [
-        'contato Eixo Consórcios',
-        'telefone Eixo Consórcios',
-        'WhatsApp Eixo Consórcios',
-        'endereço Eixo Consórcios Brasília',
+        'contato Eixo',
+        'telefone Eixo',
+        'WhatsApp Eixo',
+        'endereço Eixo Brasília',
         'consultoria de consórcio DF',
         'atendimento consórcio',
     ],
     openGraph: {
-        title: 'Fale Conosco | Eixo Consórcios',
+        title: 'Fale Conosco | Eixo',
         description:
             'Tire suas dúvidas e solicite uma consultoria personalizada sobre consórcios.',
         url: 'https://eixoconsorcios.com.br/contato',
-        siteName: 'Eixo Consórcios',
+        siteName: 'Eixo',
         locale: 'pt_BR',
         type: 'website',
         images: [
@@ -25,13 +25,13 @@ export const metadata: Metadata = {
                 url: 'https://eixoconsorcios.com.br/og-contato.png',
                 width: 1200,
                 height: 630,
-                alt: 'Fale Conosco — Eixo Consórcios',
+                alt: 'Fale Conosco — Eixo',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Fale Conosco | Eixo Consórcios',
+        title: 'Fale Conosco | Eixo',
         description:
             'Tire suas dúvidas e solicite uma consultoria personalizada sobre consórcios.',
         images: ['https://eixoconsorcios.com.br/og-contato.png'],

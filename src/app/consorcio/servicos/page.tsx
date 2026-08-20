@@ -194,7 +194,7 @@ const faqs = [
   {
     question: 'Posso usar a carta de crédito em qualquer prestador de serviço?',
     answer:
-      'Sim, desde que o prestador esteja devidamente registrado no CNPJ e o serviço seja compatível com a categoria contratada. A Eixo Consórcios orienta todo o processo de liberação da carta junto ao fornecedor escolhido por você.',
+      'Sim, desde que o prestador esteja devidamente registrado no CNPJ e o serviço seja compatível com a categoria contratada. A Eixo orienta todo o processo de liberação da carta junto ao fornecedor escolhido por você.',
   },
   {
     question: 'Quanto tempo tenho para usar a carta de crédito após a contemplação?',
@@ -274,7 +274,7 @@ export default function ServicosPage() {
         <div className="absolute inset-0 z-0">
           <Image
             src={img6}
-            alt="Consórcio de Serviços — Eixo Consórcios"
+            alt="Consórcio de Serviços — Eixo"
             fill
             priority
             className="object-cover object-center"
@@ -601,7 +601,7 @@ export default function ServicosPage() {
               <br />começa com um plano
             </h2>
             <p className="text-white/75 font-light max-w-xl mx-auto mb-10 leading-relaxed">
-              Fale com um consultor da Eixo Consórcios e descubra como planejar
+              Fale com um consultor da Eixo e descubra como planejar
               a sua próxima grande conquista sem comprometer suas finanças.
             </p>
             <AnimatedButton

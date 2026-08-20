@@ -75,7 +75,7 @@ export default function RepresentantesSection() {
               Estrutura para representantes que querem crescimento previsível
             </h2>
             <p className="text-white/70 text-base sm:text-lg font-light leading-relaxed mb-6">
-              A Eixo Consórcios é administradora e oferece uma plataforma com suporte estratégico,
+              A Eixo é administradora e oferece uma plataforma com suporte estratégico,
               marketing e operação profissional para representantes que já atuam no mercado.
             </p>
             <ul className="space-y-3 text-white/65 text-sm sm:text-base font-light">
